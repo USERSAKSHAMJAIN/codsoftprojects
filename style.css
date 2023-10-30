@@ -562,6 +562,7 @@ section {
 
 .front img {
   width: 5em;
+  
 }
 
 .content {
@@ -1110,4 +1111,18 @@ section {
 .nme {
   margin-left: 250px;
   color: white;
+}
+
+@media only screen and (max-width: 1140px) {
+  .services {
+    height: 100vh;
+    transition: all .5s;
+  }
+
+
+  .content h3 {
+    font-size: 10px;
+    letter-spacing: 0.10em;
+  }
+
 }
