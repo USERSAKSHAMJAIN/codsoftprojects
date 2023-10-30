@@ -1,0 +1,103 @@
+/* Google Font Import - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Times New Roman';
+  z
+}
+
+
+
+:root {
+  /* ===== Colors ===== */
+  --body-color: #E4E9F7;
+  --sidebar-color: #FFF;
+  --primary-color: #695CFE;
+  --primary-color-light: #F6F5FF;
+  --toggle-color: #DDD;
+  --text-color: #707070;
+  font-family: 'Times New Roman';
+
+  /* ====== Transition ====== */
+  --tran-03: all 0.2s ease;
+  --tran-03: all 0.3s ease;
+  --tran-04: all 0.3s ease;
+  --tran-05: all 0.3s ease;
+}
+
+body {
+  background: url("Background/1764254.png") no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  min-height: 100vh;
+  /* background-color: var(--body-color); */
+  transition: var(--tran-05);
+  font-family: 'Times New Roman';
+}
+
+::selection {
+  background-color: var(--primary-color);
+  color: #fff;
+  font-family: 'Times New Roman';
+}
+
+body.dark {
+  --body-color: #18191a;
+  --sidebar-color: #242526;
+  --primary-color: #3a3b3c;
+  --primary-color-light: #3a3b3c;
+  --toggle-color: #fff;
+  --text-color: #ccc;
+  font-family: 'Times New Roman';
+}
+
+/* About Section */
+.about {
+  /* background: url("1764254.png") no-repeat; */
+  /* background-position: center;
+  background-size: cover; */
+  /*max-width: 1100px;
+  width: 100%;
+  background: #fff;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  margin-top: 20px;*/
+}
+
+.ab-text {
+  font-size: 25px;
+  margin-left: 150px;
+  margin-right: 190px;
+  margin-top: 50px;
+  font-family: 'Courier New', Courier, monospace;
+  color: white;
+  /* max-width: 1100px;
+  width: 100%;
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin: auto; */
+}
+
+.about h1 {
+  margin-top: 20px;
+  text-align: center;
+  padding-top: 150px;
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  /* max-width: 1100px;
+  width: 100%;
+  border: 1px solid blue;
+  border-radius: 6px;
+  padding: 20px 60px 30px 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  margin: auto; */
+}
