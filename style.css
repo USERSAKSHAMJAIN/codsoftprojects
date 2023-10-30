@@ -499,7 +499,6 @@ section {
 .np {
   display: flex;
   margin-left: 300px;
-  margin-top: 7%;
 }
 
 /* Services Section */
@@ -586,6 +585,8 @@ section {
 .back {
   background-color: black;
   transform: rotateX(180deg);
+  border: white;
+  border-style:groove;
 
 }
 
