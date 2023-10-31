@@ -462,8 +462,6 @@ section {
   margin-left: 220px;
   border: 2px solid grey;
   perspective: 1000px;
-  height: 29vh;
-  width: 29vh;
   cursor: pointer;
   display: inline-flex;
   align-items: center;
@@ -1104,7 +1102,7 @@ section {
 .abt {
   margin-left: 550px;
   display: flex;
-  margin-top: 150px;
+  margin-top: 250px;
   color: white;
 }
 
